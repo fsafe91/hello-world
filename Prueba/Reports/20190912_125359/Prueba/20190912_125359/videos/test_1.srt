@@ -1,0 +1,28 @@
+1
+00:00:00,388 --> 00:00:00,391
+1. openBrowser(urlAPP)
+
+2
+00:00:08,243 --> 00:00:08,244
+5. maximizeWindow()
+
+3
+00:00:09,740 --> 00:00:09,742
+9. delay(2)
+
+4
+00:00:11,787 --> 00:00:11,788
+13. setText(findTestObject("txtBuscarArticulos"), "Pilas")
+
+5
+00:00:12,021 --> 00:00:12,022
+17. click(findTestObject("btnBuscar"))
+
+6
+00:00:19,376 --> 00:00:19,377
+21. getText(findTestObject("txtResultados"))
+
+7
+00:00:19,486 --> 00:00:19,487
+25. takeScreenshot()
+
